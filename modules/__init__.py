@@ -1,4 +1,3 @@
-[
-HealthRecord(id="P2026-0001", name="홍길동", height=175.0, weight=72.5),
-HealthRecord(id="P2026-0002", name="김영희", height=162.0, weight=52.0)
-]
+from .health_db import HealthRecord
+
+__all__ = ["HealthRecord"]
